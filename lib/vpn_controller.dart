@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class VpnController extends ChangeNotifier {
-  static const _platform = MethodChannel('parental_control/vpn');
+  static const _platform = MethodChannel('parental_app/vpn');
   bool isRunning = false;
 
   Future<void> startVpn() async {
